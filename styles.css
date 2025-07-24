@@ -1,0 +1,71 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #000000;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: #240024;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px purple;
+}
+
+p {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  
+  list-style-type:none; /* this removes the bulletpoints */
+  /* there is an annoying left padding in the ul element by default */
+  padding-left:0; /* this removes it */
+}
+
+li a {
+  display:inline-block; /* this allows us to add margin to each item 
+                           so there's space for it to rotate */
+  margin:10px;
+}
+
+/* this makes stuff happen when you hover! */
+li a:hover {
+  transform:rotate(-15deg); /* play with this 15deg value, works w/ negatives too! */
+  /* more CSS transform options: https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+}
